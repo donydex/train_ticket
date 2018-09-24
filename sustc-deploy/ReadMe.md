@@ -8,7 +8,7 @@ For FileZilla setting
 ```
 The deploy document(markdown version)
 ```
-- micro_service_doc.md
+- micro_service_doc.pdf
 ```
 The deploy document(PDF version)
 ```
