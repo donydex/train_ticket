@@ -1,4 +1,4 @@
-The files about deployment the project for sustcer
+The files about deployment for the project
 
 - FileZilla.xml
 ```
