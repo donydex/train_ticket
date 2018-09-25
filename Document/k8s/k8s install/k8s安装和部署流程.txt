@@ -14,6 +14,13 @@ vi /etc/hosts
 10.141.211.164 node-2-jc
 
 2.卸载原docker(若版本不为17.03)
+centos卸载docker：https://www.jianshu.com/p/438f5fdc696b
+yum list installed|grep docker 
+yum -y remove docker.x86_64(删除上面出现的包)
+rm -rf /var/lib/docker
+上条不行就换为:mv /var/lib/docker /var/lib/docker_old
+yum list installed|grep docker 
+查看包，若无，说明卸载完成
 
 
 3.把文件夹里的两个docker安装文件挪到服务器上，然后cd进这个目录，执行下面两行安装docker 17.03
