@@ -16,13 +16,13 @@ vi /etc/hosts
 2.卸载原docker(若版本不为17.03)
 
 
-2.把文件夹里的两个docker安装文件挪到服务器上，然后cd进这个目录，执行下面两行安装docker 17.03
+3.把文件夹里的两个docker安装文件挪到服务器上，然后cd进这个目录，执行下面两行安装docker 17.03
 
 yum install docker-ce-selinux-17.03.2.ce-1.el7.centos.noarch.rpm
 yum install docker-ce-17.03.2.ce-1.el7.centos.x86_64.rpm
 systemctl start docker.service
 
-3.每台服务器翻墙
+4.每台服务器翻墙
 
 https://www.jianshu.com/p/824912d9afda
 sudo yum -y install epel-release
